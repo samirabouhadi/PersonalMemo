@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:orientation="vertical"
+    android:background="@drawable/initpage">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+
+    <!--<ImageView
+        android:id="@+id/Img2"
+        android:layout_width="423dp"
+        android:layout_height="740dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/initpage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="@+id/buttonBloc"
+        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <TextView
+        android:layout_width="371dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="188dp"
+        android:text="❝𝐒𝐭𝐞𝐩 𝐢𝐧𝐭𝐨 𝐲𝐨𝐮𝐫 𝐰𝐨𝐫𝐤𝐬𝐩𝐚𝐜𝐞 𝐚𝐧𝐝 𝐟𝐞𝐞𝐥 𝐚𝐭 𝐡𝐨𝐦𝐞❞"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/vert"
+        android:textSize="18dp"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonBloc"
+        android:layout_width="183dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="192dp"
+        android:background="@drawable/btnact3"
+        android:text="Bloc Notes"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/todol"
+        android:layout_width="183dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="160dp"
+        android:background="@drawable/btnact3"
+        android:text="To do List"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
